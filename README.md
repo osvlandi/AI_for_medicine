@@ -35,3 +35,7 @@ ai-for-medicine/
 ├── notes/
 │   └── summary.md                     # My own course notes
 └── README.md
+```
+## 📄 License
+
+All source code and content in this repository are released under the terms of the [MIT License](./LICENSE.md), unless stated otherwise.
