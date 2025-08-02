@@ -1,6 +1,6 @@
 # 🩺 AI for Medicine – DeepLearning.AI
 
-> ⚠️ This repository does **not** include any original course materials (instructions, datasets, or solution code).  
+> ⚠️ This repository does **not** include any copyrighted course materials (instructions, datasets, or solution code).  
 > It only contains my own notes, explanations, and code written by me while studying the course.  
 > Official course link: [AI for Medicine – DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-medicine-specialization/)
 
@@ -19,8 +19,6 @@ The specialization is divided into three courses:
 3. **AI for Medical Treatment**
    - Estimate treatment effects using machine learning.
    - Learn about causal inference and uplift modeling.
-
-> **Note:** This repository contains only my personal implementations and notes. It does not include any copyrighted material from the course.
 
 ---
 
