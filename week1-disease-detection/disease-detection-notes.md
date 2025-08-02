@@ -1,1 +1,0 @@
-Using 100.000+ medical images and labels as input, convolutional neural networks can be trained to classify conditions such as melanoma on dermoscopy, diabetic retinopathy on retinal fundus photos, or cancer spread to lymph nodes on whole-slide histopathology images, and achieve prediction accuracy comparable to specialists.
