@@ -1,6 +1,6 @@
 # 🧠 AI for Medicine – DeepLearning.AI
 
-This repository contains my personal learning journey, notes, and implementations inspired by the [AI for Medicine](https://www.deeplearning.ai/programs/ai-for-medicine/) specialization offered by DeepLearning.AI.
+This repository contains my personal notes and code implementations for the [AI for Medicine](https://www.deeplearning.ai/programs/ai-for-medicine/) specialization offered by DeepLearning.AI.
 
 ## 📚 Course Overview
 
