@@ -1,8 +1,8 @@
 # 🩺 AI for Medicine – DeepLearning.AI
 
 > ⚠️ This repository does **not** include any copyrighted course materials (instructions, datasets, or solution code).  
-      >It only contains my own notes, explanations, and code written by me while studying the course.  
-      >Official course link: [AI for Medicine – DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-medicine-specialization/)
+>     It only contains my own notes, explanations, and code written by me while studying the course.  
+>     Official course link: [AI for Medicine – DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-medicine-specialization/)
 
 ## 📚 Course Overview
 
