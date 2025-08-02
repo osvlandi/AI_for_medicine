@@ -27,13 +27,11 @@ The specialization is divided into three courses:
 ```bash
 ai-for-medicine/
 ├── week1-diagnosis/
-│   └── diagnosis-model.ipynb          # CNN model for disease detection
+│   
 ├── week2-prognosis/
-│   └── survival-analysis.ipynb        # Kaplan-Meier and Cox models
+│   
 ├── week3-treatment/
-│   └── treatment-effect.ipynb         # Uplift modeling and causal ML
-├── notes/
-│   └── summary.md                     # My own course notes
+│   
 └── README.md
 ```
 ## 📄 License
