@@ -26,13 +26,14 @@ The specialization is divided into three courses:
 
 ```bash
 ai-for-medicine/
-├── week1-diagnosis/
-│   
-├── week2-prognosis/
-│   
-├── week3-treatment/
-│   
-└── README.md
+├── diagnosis/
+│   ├── week1-disease-detection/         # Week 1: Disease detection with computer vision
+│   ├── week2-evaluating-models/         # Week 2: Evaluating Models
+│   └── week3-image-segmentation/        # Week 3: Image segmentation on MRIs
+├── prognosis/
+├── treatment/
+├── LICENSE.md                           # MIT License
+└── README.md                            # Repository overview and documentation
 ```
 ## 📄 License
 
