@@ -6,7 +6,6 @@
 #### 🔑 Key Focus
 
 > Apply deep learning to **medical diagnosis** using medical images (X-rays, MRIs).
-> Ideal for learners who completed the ML or Deep Learning specializations.
 
 ---
 
