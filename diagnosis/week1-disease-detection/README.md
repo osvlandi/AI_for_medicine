@@ -73,6 +73,9 @@
 
 ## 🏥 Training Algorithms in Radiology
 
+> In this notebook we go through some of the best practices in image pre-processing for AI training in medical images:
+
+
 ### ⚙️ Training Process
 
 * The algorithm is trained using **chest X-rays** labeled as:
