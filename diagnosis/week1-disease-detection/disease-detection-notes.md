@@ -1,4 +1,4 @@
-### 📝 Week 1 – Disease Detection with Computer Vision
+### Lecture Notes – 📝 Week 1 – Disease Detection with Computer Vision
 *Start of the **AI for Medicine** specialization (DeepLearning.AI, taught by Pranav Rajpurkar)*
 
 ---
@@ -59,4 +59,74 @@
   - Class imbalance
   - Complex evaluation strategies
 - Training, testing, and performance evaluation will be explored in depth throughout the course.
+
+# Training Algorithms in Radiology
+
+-----------------------------------
+        TRAINING PROCESS
+-----------------------------------
+- The algorithm is trained using **chest X-rays** labeled as:
+   • `1 = contains condition`
+   • `0 = normal`
+- Goal: the algorithm learns to map an image to a probability of containing a condition.
+- Common terminology: *deep learning algorithm*, *model*, *neural network*, *CNN*.
+
+-----------------------------------
+        OUTPUT & ERROR
+-----------------------------------
+- The algorithm outputs a **probability (score)**.
+   Example:
+   - Image A → 0.48 (expected label = 1 → error)
+   - Image B → 0.51 (expected label = 0 → error)
+- At the beginning of training, these probabilities are far from the true labels.
+- The difference between predicted probability and true label is the **error**.
+
+-----------------------------------
+        LOSS FUNCTION
+-----------------------------------
+- To measure error, we use a **loss function**.
+- In binary classification, the most common is **Binary Cross-Entropy Loss**.
+- Formulas:
+   • If label = 1 → `Loss = -log(P(y=1|x))`
+   • If label = 0 → `Loss = -log(1 - P(y=1|x))`
+
+### Examples
+- Case 1: Label = 1, Output = 0.2 → Loss = -log(0.2) ≈ 0.70
+- Case 2: Label = 0, Output = 0.7 → Loss = -log(0.3) ≈ 0.52
+
+Over many examples, the algorithm updates itself to reduce the average loss.
+
+-----------------------------------
+   CHALLENGES IN MEDICAL DATASETS
+-----------------------------------
+### 1. Class Imbalance
+- Real-world medical datasets have **more normal cases** than condition cases.
+- Example: 100 normal vs 1 condition.
+- Consequence: the model sees mostly normal images and may always predict “normal.”
+- This reduces sensitivity to rare but important condition cases.
+
+### 2. Loss Contribution
+- Example: dataset with 8 images → 6 normal, 2 condition.
+- If initial predictions are 0.5 for all:
+   - Normal examples: `-log(1-0.5) = 0.3` → total = 1.8
+   - Condition examples: `-log(0.5) = 0.3` → total = 0.6
+- → The majority of the loss comes from normal examples.
+- The algorithm focuses on optimizing for normals, ignoring conditions.
+
+### 3. Weighted Loss (Solution)
+- To correct imbalance, assign different weights to classes:
+   - Positive class (condition): `wp = (#negative / total)`
+   - Negative class (normal): `wn = (#positive / total)`
+- Example: 6 normal, 2 condition
+   - `wp = 6/8`, `wn = 2/8`
+- With weights applied, contributions from condition and normal are balanced.
+- This technique is called **weighted loss**.
+
+-----------------------------------
+        FINAL SUMMARY
+-----------------------------------
+- Deep learning models learn by minimizing a **loss function**.
+- In medical imaging, **class imbalance** is a critical challenge.
+- **Weighted loss** ensures rare cases (e.g., conditions) are not ignored.
+```
 
