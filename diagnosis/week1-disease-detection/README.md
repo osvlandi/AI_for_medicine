@@ -73,7 +73,7 @@
 
 ## 🏥 Training Algorithms in Radiology
 
-> In this notebook we go through some of the best practices in image pre-processing for AI training in medical images:
+> In this notebook we go through some of the best practices in image preprocessing for AI training in medical images:
 
 > [Medical Image Preprocessing](https://github.com/osvlandi/AI_for_medicine/blob/main/diagnosis/week1-disease-detection/image_preprocessing.ipynb)
 
