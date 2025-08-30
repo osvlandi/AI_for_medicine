@@ -1,5 +1,4 @@
-# Lecture Notes 
-# 📝 Week 1 – Disease Detection with Computer Vision
+# 📝 Week 1 – Disease Detection with Computer Vision Lecture Notes 
 
 ---
 
