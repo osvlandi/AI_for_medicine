@@ -1,6 +1,5 @@
-### Lecture Notes – 📝 Week 1 – Disease Detection with Computer Vision
-
-*Start of the **AI for Medicine** specialization (DeepLearning.AI, taught by Pranav Rajpurkar)*
+# Lecture Notes 
+# 📝 Week 1 – Disease Detection with Computer Vision
 
 ---
 
@@ -32,7 +31,7 @@
 
 ---
 
-### 📚 Real-World Case Studies
+## 📚 Real-World Case Studies
 
 #### 🧴 Dermatology – Skin Cancer Detection
 
@@ -72,7 +71,7 @@
 
 ---
 
-# 🏥 Training Algorithms in Radiology
+## 🏥 Training Algorithms in Radiology
 
 ### ⚙️ Training Process
 
